@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        .mainsection {
+            display: flex;
+            justify-content: space-between;
+            background-color: black;
+            color: white;
+            padding: 40px;
+            height: 88PX;
+            align-items: center;
+
+        }
+
+        .main {
+            font-family: sans-serif;
+            font-size: small;
+        }
+
+        .m1 {
+            padding-right: 10%;
+            align-items: center;
+            height: 45px;
+        }
+
+        .btn {
+            height: 100%;
+            align-items: center;
+            font-size: larger;
+            padding-left: 10px;
+            border-radius: 10px;
+        }
+
+        .btn2 {
+            height: 100%;
+            align-items: center;
+            font-size: large;
+            padding-left: 10px;
+            border-radius: 10px;
+            background-color: black;
+            color: whitesmoke;
+            border: 1px solid whitesmoke;
+
+        }
+
+        .btn3 {
+            height: 100%;
+            align-items: center;
+            font-size: larger;
+            padding-left: 10px;
+            border-radius: 10px;
+            background-color: #5293c7;
+            color: rgb(245, 245, 245);
+            padding-right: 10px;
+        }
+
+        .cs {
+            background-color: #DADBF1;
+            border: 1px solid lightblue;
+            padding-bottom: 80px;
+            align-items: center;
+
+        }
+
+        .b3 {
+            padding-left: 7%;
+            margin-top: 5%;
+
+        }
+
+        .b3 p {
+            padding-top: 10px;
+            font-size: 24px;
+            line-height: 32px;
+
+        }
+
+        .b3 h1 {
+            font-size: 70px;
+            font-size: 80px;
+            line-height: 76px;
+            letter-spacing: -5px;
+            font-weight: 400;
+            padding-top: 10px;
+        }
+
+        .mc {
+            padding: 90px 90px;
+            column-gap: 80px;
+            display: flex;
+            justify-content: space-around;
+
+        }
+
+        .mc h1 {
+            font-size: 250%;
+            font-weight: 600;
+        }
+
+        .mc ul li a {
+            color: black;
+            padding-left: 10px;
+            text-decoration: none;
+            padding-top: 70px;
+        }
+
+        .ls {
+            width: 100%;
+            padding-left: 25px;
+            font-size: 20px;
+            padding-top: 30px;
+        }
+
+        .lc {
+            padding-left: 25px;
+            font-size: 20px;
+            padding-top: 30px;
+        }
+
+        .h {
+            color: black;
+
+            text-decoration: none;
+            font-size: 20px;
+            width: 50%;
+        }
+
+        .ha {
+            width: 50%;
+        }
+
+
+        .box {
+            padding: 90px 90px;
+        }
+
+        .li {
+            padding-top: 60px;
+            padding-left: 30px;
+            font-size: 20px;
+
+        }
+
+        .li ul li a {
+            color: black;
+            text-decoration: none;
+            padding-left: 20px;
+            padding-top: 20px;
+        }
+
+        .li h3 {
+            padding-left: 10px;
+            padding: 60px 0px;
+        }
+
+        footer {
+            margin-top: 170px;
+            width: 100%;
+            min-height: 60vh;
+            background-color: black;
+            color: whitesmoke;
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 50px;
+           
+        }
+
+        .foot-item {
+            padding-left: 20px;
+        }
+
+        .foot-item ul li a {
+            text-decoration: none;
+            color: whitesmoke
+        }
+
+        .foot-item ul li {
+            margin-top: 10px;
+        }
+
+        .foot-item h2 {
+            margin-bottom: 20px;
+            gap: 20px;
+        }
+
+        .foot-left {
+            display: flex;
+            width: 50%;
+            justify-content: space-between;
+            padding-top: 50px;
+        }
+
+        .foot-right {
+            width: 20%;
+            display: flex;
+            align-items: end;
+
+        }
+
+        .SAS {
+            font-size: 20px;
+            display: none;
+
+        }
+
+        footer ul li {
+            list-style: none;
+        }
+
+        @media screen and (max-width:1000px) {
+            .m1 {
+                display: none;
+            }
+        }
+
+        @media screen and (max-width:720px) {
+
+            .foot-left {
+                
+                width: 100%;
+            }
+
+
+
+            .SAS {
+                display: block;
+            }
+
+        }
+
+      
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="mainsection">
+        <div class="main">
+            <h1>Abstract | Help center</h1>
+        </div>
+        <div class="m1">
+            <input type="text" name="" id="" placeholder="search" class="btn">
+            <input type="text" name="" id="" placeholder="submit a request" class="btn2">
+            <button class="btn3">sign in</button>
+
+        </div>
+
+        <div class="SAS">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </div>
+    <div class="cs">
+        <div class="b3">
+            <h5>Abstract > Using Abstract</h5>
+            <h1>Using Abstract</h1>
+            <p>Abstract lets you manage, version, and document your designs in one place.</p>
+        </div>
+    </div>
+    <section>
+        <div class="mc">
+            <div class="h">
+                <h1>Get started in Abstract</h1>
+
+                <div class="ls">
+                    <ul>
+                        <li style="padding-bottom: 12px;">
+                            <a href="">Try out Abstract</a>
+                        </li>
+                        <li style="padding-bottom: 12px;"><a href="">The Abstract Design Workflow</a></li>
+                        <li style="padding-bottom: 12px;"><a href="">Start Working In Abstract</a></li>
+                        <li style="padding-bottom: 12px;"><a href="">Practice Abstract workflow</a></li>
+                        <li style="padding-bottom: 12px;"><a href="">Glossary</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ha">
+                <h1>Using the Abstract Desktop App</h1>
+                <div class="ls">
+                    <ul>
+                        <li style="padding-bottom: 12px;"><a href="">Update to the newest version of Abstract</a></li>
+                        <li style="padding-bottom: 12px;"><a href="">Backing Up your Work in Abstract</a></li>
+                        <li style="padding-bottom: 12px;"><a href="">System requirements</a></li>
+                        <li style="padding-bottom: 12px;"><a href="">Downloading the Abstract Desktop Application</a>
+                        </li>
+                        <li style="padding-bottom: 12px;"><a href="">The Abstract plugin</a></li>
+                        <li style="padding-bottom: 12px;"><a href="">Keyboard shortcuts</a></li>
+                    </ul>
+                    <a href=""></a>See all 13 articles</a>
+                </div>
+            </div>
+        </div>
+        <div class="mc">
+            <div class="h">
+                <h1>Working in Projects</h1>
+
+                <div class="ls">
+                    <ul>
+                        <li style="padding-bottom: 12px;">
+                            <a href="">Name your project</a>
+                        </li>
+                        <li style="padding-bottom: 12px;"><a href="">Add files to your project</a></li>
+                        <li style="padding-bottom: 12px;"><a href="">Create a branch</a></li>
+                        <li style="padding-bottom: 12px;"><a href="">Open untracked vs. creating a branch</a></li>
+                        <li style="padding-bottom: 12px;"><a href="">Change branch status</a></li>
+                        <li style="padding-bottom: 12px;"><a href="">Rename a branch</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ha">
+                <h1>Commit your work</h1>
+                <div class="ls">
+                    <ul>
+                        <li style="padding-bottom: 12px;"><a href="">A guide to commits</a></li>
+                        <li style="padding-bottom: 12px;"><a href="">Committing changes in a branch</a></li>
+                        <li style="padding-bottom: 12px;"><a href="">Commit history</a></li>
+                        <li style="padding-bottom: 12px;"><a href="">Troubleshoot your commits</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="mc">
+            <div class="h">
+                <h1>Merge your work</h1>
+
+                <div class="ls">
+                    <ul>
+                        <li style="padding-bottom: 12px;">
+                            <a href="">A Guide to Merging</a>
+                        </li>
+                        <li style="padding-bottom: 12px;"><a href="">Merging to the main branch</a></li>
+                        <li style="padding-bottom: 12px;"><a href="">Resolve conflicts</a></li>
+                        <li style="padding-bottom: 12px;"><a href="">Restore to previous commit</a></li>
+                        <li style="padding-bottom: 12px;"><a href="">Merge restrictions</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ha">
+                <h1>Work with libraries</h1>
+                <div class="ls">
+                    <ul>
+                        <li style="padding-bottom: 12px;"><a href="">Libraries Overview</a></li>
+                        <li style="padding-bottom: 12px;"><a href="">Add a Library</a></li>
+                        <li style="padding-bottom: 12px;"><a href="">Link a library</a></li>
+                        <li style="padding-bottom: 12px;"><a href="">Update a library</a></li>
+                        <li style="padding-bottom: 12px;"><a href="">Work with dependencies</a></li>
+                        <li style="padding-bottom: 12px;"><a href="">Manage your libraries</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="mc">
+            <div class="h">
+                <h1>Collaborate in projects</h1>
+
+                <div class="ls">
+                    <ul>
+                        <li style="padding-bottom: 12px;">
+                            <a href="">Share your designs</a>
+                        </li>
+                        <li style="padding-bottom: 12px;"><a href="">Request a design review</a></li>
+                        <li style="padding-bottom: 12px;"><a href="">Use collections</a></li>
+                        <li style="padding-bottom: 12px;"><a href="">Sections within collections</a></li>
+                        <li style="padding-bottom: 12px;"><a href="">Leave comments and annotations</a></li>
+                        <li><a href="">Assets</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ha">
+                <h1>Troubleshooting Abstract</h1>
+                <div class="ls">
+                    <ul>
+                        <li style="padding-bottom: 12px;"><a href="">General Troubleshooting</a></li>
+                        <li style="padding-bottom: 12px;"><a href="">Troubleshoot sync errors</a></li>
+                        <li style="padding-bottom: 12px;"><a href="">Resolve a pending commit</a></li>
+                        <li style="padding-bottom: 12px;"><a href="">Resolve diverged branches</a></li>
+                        <li style="padding-bottom: 12px;"><a href="">Previews and asset generation</a></li>
+                        <li style="padding-bottom: 12px;"><a href="">Sync library components in Sketch</a></li>
+                        <a href="" style="text-decoration: none;">See all 11 articles</a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="box">
+        <div class="ko">
+            <h1>Abstract Best Practices</h1>
+            <div>
+                <div class="li">
+                    <ul>
+                        <h3 style="padding-bottom: 12px;">Main</h3>
+
+                        <li style="padding-bottom: 12px;"> <a href="">Define the main branch</a></li>
+
+                        <h3 style="padding-bottom: 12px;">Branching</h3>
+                        <li style="padding-bottom: 12px;"> <a href="">Set up a new branch</a></li>
+                        <li style="padding-bottom: 12px;"><a href="">Working in a branch</a></li>
+                        <li style="padding-bottom: 12px;"><a href="">Prepare your branch for merging</a></li>
+                        <h3 style="padding-bottom: 12px;">Committing</h3>
+                        <li style="padding-bottom: 12px;"><a href="">When to commit</a></li>
+                        <li style="padding-bottom: 12px;"><a href="">Committing — Part 2</a></li>
+                        <h3 style="padding-bottom: 12px;">Merging</h3>
+                        <li style="padding-bottom: 12px;"><a href="">Update from the main branch before merging</a></li>
+                        <li style="padding-bottom: 12px;"><a href="">Resolve merge conflicts</a></li>
+                        <li style="padding-bottom: 12px;"><a href="">Clean up your branch before merging</a></li>
+                        <h3 style="padding-bottom: 12px;">Design systems</h3>
+                        <li style="padding-bottom: 12px;"><a href="">Libraries</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="foot-left">
+            <div class="foot-item">
+                <h2>Abstract</h2>
+                <ul>
+                    <li>
+                        <a href="">Start Trial</a>
+                    </li>
+                    <li>
+                        <a href="">Pricing</a>
+                    </li>
+                    <li>
+                        <a href="">Download</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="foot-item">
+                <h2>Resources</h2>
+                <ul>
+                    <li>
+                        <a href="">Blog</a>
+                    </li>
+                    <li>
+                        <a href="">Help Center</a>
+                    </li>
+                    <li>
+                        <a href="">Release Note</a>
+                    </li>
+                    <li>
+                        <a href="">Status</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="foot-item">
+                <h2>Community</h2>
+                <ul>
+                    <li>
+                        <a href="">Twitter</a>
+                    </li>
+                    <li>
+                        <a href="">Linked In</a>
+                    </li>
+                    <li>
+                        <a href="">Facebook</a>
+                    </li>
+                    <li>
+                        <a href="">Dribble</a>
+                    </li>
+                    <li>
+                        <a href="">Podcast</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="foot-item">
+                <h2>Company</h2>
+                <ul>
+                    <li>
+                        <a href="">About Us</a>
+                    </li>
+                    <li>
+                        <a href="">Careers</a>
+                    </li>
+                    <li>
+                        <a href="">Legal</a>
+                    </li>
+                </ul>
+                <h2 style="margin-top: 20px; margin-bottom: 10px;">Content us</h2>
+                <ul>
+                    <li>
+                        <a href="">info@goabstract.com</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+        <div class="foot-right">
+            <h3>
+                © Copyright 2025
+
+                Abstract Studio Design, Inc.
+
+                All rights reserved</h3>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

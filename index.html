@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        .mainsection {
+            display: flex;
+            justify-content: space-between;
+            background-color: black;
+            color: white;
+            padding: 40px;
+            height: 88PX;
+            align-items: center;
+
+        }
+
+        .main {
+            font-family: sans-serif;
+            font-size: small;
+        }
+
+        .m1 {
+            padding-right: 10%;
+            align-items: center;
+            height: 50px;
+        }
+
+        .btn {
+            height: 100%;
+            align-items: center;
+            font-size: larger;
+            padding-left: 10px;
+            border-radius: 10px;
+        }
+
+        .btn2 {
+            height: 100%;
+            align-items: center;
+            font-size: large;
+            padding-left: 10px;
+            border-radius: 10px;
+            background-color: black;
+            color: whitesmoke;
+            border: 1px solid whitesmoke;
+
+        }
+
+        .btn3 {
+            height: 100%;
+            align-items: center;
+            font-size: larger;
+            padding-left: 10px;
+            border-radius: 10px;
+            background-color: #5293c7;
+            color: rgb(245, 245, 245);
+            padding-right: 10px;
+        }
+
+        .box {
+            display: flex;
+            margin-top: 20px;
+        }
+
+        .box .img {
+            width: 25%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .box .para {
+            width: 75%;
+        }
+
+        .para p {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .a {
+            text-align: center;
+            font-size: 50px;
+            padding-top: 100px;
+            border: 1px solidlightblue;
+            padding-bottom: 110px;
+            background-color: #DADBF1;
+
+        }
+
+        .aa input {
+            width: 45%;
+            height: 60px;
+            align-items: center;
+            border: 1px solid blue;
+            border-radius: 10px;
+            padding-left: 10px;
+        }
+
+        .main-section {
+            margin-top: 100px;
+            display: grid;
+            width: 70%;
+            margin-left: 15%;
+            grid-template-columns: 1fr 1fr;
+
+        }
+
+        footer {
+            margin-top: 170px;
+            width: 100%;
+            min-height: 60vh;
+            background-color: black;
+            color: whitesmoke;
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 50px;
+        }
+
+        .foot-item {
+            padding-left: 20px;
+        }
+
+        .foot-item ul li a {
+            text-decoration: none;
+            color: whitesmoke
+        }
+
+        .foot-item ul li {
+            margin-top: 10px;
+        }
+
+        .foot-item h2 {
+            margin-bottom: 20px;
+            gap: 20px;
+        }
+
+        .foot-left {
+            display: flex;
+            width: 50;
+            justify-content: space-between;
+            padding-top: 50px;
+        }
+
+        .foot-right {
+            width: 20%;
+            display: flex;
+            align-items: end;
+
+        }
+
+        .SAS {
+            font-size: 20px;
+            display: none;
+
+        }
+
+        footer ul li {
+            list-style: none;
+        }
+
+        @media screen and (max-width:1000px) {
+            .m1 {
+                display: none;
+            }
+
+            .a h2 {
+                display: inline;
+            }
+
+        }
+
+        @media screen and (max-width:720px) {
+            .main-section {
+                display: grid;
+                width: 100%;
+                margin-left: 0;
+                grid-template-columns: 1fr;
+            }
+
+            .foot-left {
+                display: block;
+            }
+
+            .main h1 {
+                font-size: 18px;
+            }
+
+            .a h2 {
+                font-size: 50%;
+            }
+
+            .aa input {
+                width: 100%;
+            }
+
+            footer {
+                display: block;
+            }
+
+            footer .foot-right {
+                width: 100%;
+            }
+
+            .img img {
+                height: 35%;
+            }
+
+            .SAS {
+                display: block;
+            }
+
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="mainsection">
+        <div class="main">
+            <h1>Abstract | Help center</h1>
+        </div>
+        <div class="m1">
+            <input type="text" name="" id="" placeholder="search" class="btn">
+            <input type="text" name="" id="" placeholder="submit a request" class="btn2">
+            <button class="btn3">sign in</button>
+
+        </div>
+        <div class="SAS">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </div>
+    <div class="a">
+        <h2>How can we help?</h2>
+        <div class="aa">
+            <input type="text" name="" id="" placeholder="search">
+        </div>
+    </div>
+
+    <section class="main-section">
+        <div class="box">
+            <div class="img">
+                <img src="https://help.goabstract.com/hc/theming_assets/01HZH4D4GACXWCRKK6JHQ730XD" alt="" width="50%"
+                    height="60%">
+            </div>
+            <div class="para">
+                <h3>
+                    Using Abstract</h3>
+                <p>Abstract lets you manage, version, and document your designs in one place.</p>
+                <a href="/learn.html" style="text-decoration: none;">learn More
+
+                </a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="img">
+                <img src="https://help.goabstract.com/hc/theming_assets/01HZH4D45NKFCN3388ZCBJB878" alt="" width="50%"
+                    height="50%">
+            </div>
+            <div class="para">
+                <h3>Manage your account</h3>
+                <p>Configure your account settings, such as your email, profile details, and password.</p>
+                <a href="/learn more 2.html" style="text-decoration: none;">Learn More
+                </a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="img">
+                <img src="https://help.goabstract.com/hc/theming_assets/01HZH4D3M8CRR0C2V5GREVR6HK" alt="" width="50%"
+                    height="50%">
+            </div>
+            <div class="para">
+                <h3>Manage organizations, teams, and projects</h3>
+                <p>Use Abstract organizations, teams, and projects to organize your people and your work.</p>
+                <a href="learnmore3.html" style="text-decoration: none;">Learn More
+                </a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="img">
+                <img src="https://help.goabstract.com/hc/theming_assets/01HZH4D38K1S1M9WKWSQZE62YE" alt="" width="50%"
+                    height="50%">
+            </div>
+            <div class="para">
+                <h3> Manage billing</h3>
+                <p>Change subscriptions and payment details.</p>
+                <a href="" style="text-decoration: none;">Learn More
+                </a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="img">
+                <img src="https://help.goabstract.com/hc/theming_assets/01HZH4D3S3QY5190TZE3H8ZSVK" alt="" width="50%"
+                    height="50%">
+            </div>
+            <div class="para">
+                <h3>
+                    Authenticate to Abstract</h3>
+                <p>Set up and configure SSO, SCIM, and Just-in-Time provisioning.</p>
+                <a href="" style="text-decoration: none;">Learn More
+                </a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="img">
+                <img src="https://help.goabstract.com/hc/theming_assets/01HZH4D3G4S2K93BN3WJPT8600" alt="" width="50%"
+                    height="50%">
+            </div>
+            <div class="para">
+                <h3>
+                    Abstract support</h3>
+                <p>Get in touch with a human.</p>
+                <a href="" style="text-decoration: none;">Learn More →
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="foot-left">
+            <div class="foot-item">
+                <h2>Abstract</h2>
+                <ul>
+                    <li>
+                        <a href="">Start Trial</a>
+                    </li>
+                    <li>
+                        <a href="">Pricing</a>
+                    </li>
+                    <li>
+                        <a href="">Download</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="foot-item">
+                <h2>Resources</h2>
+                <ul>
+                    <li>
+                        <a href="">Blog</a>
+                    </li>
+                    <li>
+                        <a href="">Help Center</a>
+                    </li>
+                    <li>
+                        <a href="">Release Note</a>
+                    </li>
+                    <li>
+                        <a href="">Status</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="foot-item">
+                <h2>Community</h2>
+                <ul>
+                    <li>
+                        <a href="">Twitter</a>
+                    </li>
+                    <li>
+                        <a href="">Linked In</a>
+                    </li>
+                    <li>
+                        <a href="">Facebook</a>
+                    </li>
+                    <li>
+                        <a href="">Dribble</a>
+                    </li>
+                    <li>
+                        <a href="">Podcast</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="foot-item">
+                <h2>Company</h2>
+                <ul>
+                    <li>
+                        <a href="">About Us</a>
+                    </li>
+                    <li>
+                        <a href="">Careers</a>
+                    </li>
+                    <li>
+                        <a href="">Legal</a>
+                    </li>
+                </ul>
+                <h2 style="margin-top: 20px; margin-bottom: 10px;">Content us</h2>
+                <ul>
+                    <li>
+                        <a href="">info@goabstract.com</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+        <div class="foot-right">
+            <h3>
+                © Copyright 2025
+
+                Abstract Studio Design, Inc.
+
+                All rights reserved</h3>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
